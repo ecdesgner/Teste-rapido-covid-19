@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    text-align: center;
+    margin-top: 5%;
+}
+
+#comecar{
+    margin-top: 2%;
+}
+
+#alerta{
+    margin-top: 2%;
+}
+
+#conteudo{
+    background-color: rgb(121, 200, 253);
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    margin-left: 25%;
+    padding: 3%;
+    border-radius: 15px;
+    box-shadow: 5px 1px 20px black;
+    margin-bottom: 5%;
+    display: none;
+}
+
+#question p{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+#p{
+    background-color: rgb(160, 196, 243);
+}
+
+#nextbtn{
+   margin-top: 15px;
+}
+
+#final {
+    display: none;
+    
+}

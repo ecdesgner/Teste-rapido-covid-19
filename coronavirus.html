@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="coronavirus.css">
+    <title>Teste Coronavirus</title>
+</head>
+<body>
+
+    <div class="banner">
+        <h1 id="titulo">Teste do Coronavirus online!</h1>
+        <button id="comecar" class="btn btn-primary" onclick="comecar()">Começar teste</button>
+        <p id="alerta" class="card-text"><small class="text-muted">Este teste serve somente para dar a você um diagnostico primário<br>Não substituie o teste no hospital!</small></p>
+    </div>
+
+<div id="conteudo">
+    <div id="question">
+      
+    </div>
+    <button id="nextbtn" class="btn btn-success" onclick="printHTMLQuestion(currentQuestionIndex)">Next</button><br>
+    <span style="font-size: 12px;">Caso a resposta seja Não então somente vá para a proxima</span>
+</div>
+
+
+
+
+<div class="finalll" style="text-align:center; margin-top: 5%;">
+<button id="final" class="btn btn-success" onclick="fim()">Resultado</button><br>
+</div>
+
+<div id="resultado_final" style="text-align: center; margin-top: 5%; background-color: rgb(160, 196, 243); width: 50%; margin-left: 25%; margin-bottom: 5%;">
+    
+</div>
+  
+<div class="novo" style="text-align: center;">
+    <button class="btn btn-success" id="novo" onclick="novo()">Realizar o teste de novo</button>
+ 
+</div>
+
+ 
+
+
+<script type="text/javascript" src="coronavirus.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
